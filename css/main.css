@@ -58,19 +58,37 @@ a button{
     justify-content: center;
 }
 
+.polaroid{
+    background: #fff no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    border-radius: 8px;
+    filter: drop-shadow(0.3rem 0.3rem 0.3rem rgba(0,0,0,.3));
+    box-shadow: 1px 1px 1px rgba(255,255,255,0.5);
+    height: 400px;
+}
+
 .imagens{
-    width: 400px;
-    height: 350px;
-    background: rgba(0,0,0,.1);
-    filter: drop-shadow(0.25rem 0.25rem 0.25rem rgba(0,0,0,.1))
+    width: 250px;
+    height: 250px;
+    margin: 2em;
 }
 
 .imagens img{
     width: 100%;
     height: 100%;
+    border-radius: 8px;
     background-position: center;
     background-repeat: no-repeat;
     filter: drop-shadow(0.25rem 0.25rem 0.25rem rgba(0,0,0,.1))
+}
+
+.imagens p{
+    width: 100%;
+    text-align: center;
+    margin-top: 8%;
 }
 
 footer{

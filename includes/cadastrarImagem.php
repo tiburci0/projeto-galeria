@@ -1,5 +1,6 @@
 <?php
    			include_once("conexao.php");
+               $descricaoImagem = $_POST['descIMG'];
                $arquivo = $_FILES['arquivo']['name'];
                
                //Pasta onde o arquivo vai ser salvo
@@ -51,7 +52,7 @@
                    if(move_uploaded_file($_FILES['arquivo']['tmp_name'], $_UP['pasta']. $nome_final)){
                        //Upload efetuado com sucesso, exibe a mensagem
                        $query = mysqli_query($conn, "INSERT INTO imagens (
-                       imagem) VALUES('$nome_final')");
+                       imagem, descricao) VALUES('$nome_final', '$descricaoImagem')");
                        echo "
                            <META HTTP-EQUIV=REFRESH CONTENT = '0;URL=http://localhost/Galeria/index.php'>
                            <script type=\"text/javascript\">

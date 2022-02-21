@@ -27,14 +27,16 @@
          </div>
         </div>
     </nav>
-
     <main class="gallery">
         <?php
         $sql = mysqli_query($conn, "SELECT * FROM imagens");
         while($buscar = mysqli_fetch_assoc($sql)){
         ?>
+        <div class="polaroid">
         <div class="imagens">
             <img src="./images/uploads/<?php echo $buscar['imagem']; ?>"/>
+            <p><?php echo $buscar['descricao'] ?></p>
+        </div>
         </div>
         <?php
         }

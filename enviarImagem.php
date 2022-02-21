@@ -35,6 +35,7 @@
             <div class="form">
                 <form action="./includes/cadastrarImagem.php" enctype="multipart/form-data" method="POST">
                     <input type="file" name="arquivo" id="arquivo" required/>
+                    <input type="text" name="descIMG" id="descIMG" placeholder="Descrição da imagem" required/>
                     <input type="submit" value="Enviar imagem">
                 </form>
             </div>
