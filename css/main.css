@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root{
+    --blue: #93BAF9;
+    --black: #363636;
+    --search: #F0F2F5;
+    --green: #28d13e;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+nav{
+    background: linear-gradient(90deg, var(--green), var(--blue));
+    filter: drop-shadow(0.25rem 0.25rem 0.25rem rgba(0,0,0,.1));
+    margin: 0 auto;
+}
+
+.menu{
+    height: 12vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 4em 0 4rem;
+}
+
+.menu h1{
+    font-size: 28px;
+    color: #Fff;
+    font-weight: bold;
+}
+
+a button{
+    background: var(--green);
+    width: 10vw;
+    height: 5.5vh;
+    color: #fff;
+    font-weight: bold;
+    font-size: 13px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    filter: drop-shadow(0.25rem 0.25rem 0.25rem rgba(62, 185, 78, 0.5));
+}
+
+.gallery{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    flex-basis: 100%;
+    margin: 2vw;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imagens{
+    width: 400px;
+    height: 350px;
+    background: rgba(0,0,0,.1);
+    filter: drop-shadow(0.25rem 0.25rem 0.25rem rgba(0,0,0,.1))
+}
+
+.imagens img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: drop-shadow(0.25rem 0.25rem 0.25rem rgba(0,0,0,.1))
+}
+
+footer{
+    width: 100%;
+    height: 17vh;
+    background: linear-gradient(45deg, #363636, grey);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    color: #fff;
+}
+
+.sociais{
+    display: flex;
+    gap: 12px;
+}
+
+.sociais button{
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    outline: 0;
+    border: 0;
+    position: relative;
+    top: 10px;
+}
+
+.sociais a button{
+    filter: none;
+}
+
+.sociais button i{
+    color: white;
+}
+
+.sociais button:nth-child(1){
+    background: var(--black);
+}
+
+.sociais button:nth-child(2){
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%)
+}
+
+.sociais button:nth-child(3){
+    background: rgb(40, 51, 206);
+    color: wheat;
+}
+

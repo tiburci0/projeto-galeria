@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root{
+    --blue: #93BAF9;
+    --black: #363636;
+    --search: #F0F2F5;
+    --green: #28d13e;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+nav{
+    background: linear-gradient(90deg, var(--green), var(--blue));
+    filter: drop-shadow(0.25rem 0.25rem 0.25rem rgba(0,0,0,.1));
+    margin: 0 auto;
+}
+
+.menu{
+    height: 12vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 4em 0 4rem;
+}
+
+.menu h1{
+    font-size: 28px;
+    color: #Fff;
+    font-weight: bold;
+}
+
+a button{
+    background: var(--green);
+    width: 10vw;
+    height: 5.5vh;
+    color: #fff;
+    font-weight: bold;
+    font-size: 13px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    filter: drop-shadow(0.25rem 0.25rem 0.25rem rgba(62, 185, 78, 0.5));
+}
+
+
+.title{
+    color: #fff;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3%;;
+}
+
+.upload{
+    background: linear-gradient(90deg, var(--green), var(--blue));
+    width: 750px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px 5px 0px 0px;
+    filter: drop-shadow(0.25rem 0.25rem 0.25rem rgba(0,0,0,.25));
+}
+
+.upload span{
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.upload i{
+    width: 128px;
+    height: 128px;
+}
+
+.form{
+    background: gainsboro;
+    filter: drop-shadow(0.25rem 0.25rem 0.25rem rgba(0,0,0,.25));
+    width:750px;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input[type=file]{
+    border-radius: 0 5px 5px 0px;
+}
+
+input[type=submit]{
+    background: linear-gradient(90deg, #363636, gray);
+    border-radius: 5px;
+    height: 6vh;
+    border: 0;
+    outline: 0;
+    font-weight: bold;
+    color: #fff;
+}
+
+input[type=submit]:hover{
+    border: 0;
+    outline: 0;
+}
+
+input[type=submit]:focus{
+    border: 0;
+    outline: 0;
+}
+
+input[type=text]{
+    background: #fff;
+    height: 6vh;
+    border-radius: 5px;
+    border: 1px solid var(--blue);
+    outline: 0;
+    text-indent: 0.5rem;
+}
+
+input[type=text]:hover{
+    outline: 0;
+    filter: drop-shadow(0.25rem 0.25rem 0.25rem #93baf9e5);
+    box-shadow: 1px 1px 1px #93baf9e5;
+}
+
+input[type=text]:focus{
+    outline: 0;
+}
+
