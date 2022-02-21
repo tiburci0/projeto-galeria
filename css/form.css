@@ -143,3 +143,8 @@ input[type=text]:focus{
     outline: 0;
 }
 
+@media (max-width: 608px){
+    a button{
+         width: 120px;
+     }
+ }
