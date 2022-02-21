@@ -145,6 +145,14 @@ input[type=text]:focus{
 
 @media (max-width: 608px){
     a button{
-         width: 120px;
+         width: 150px;
+     }
+     
+     .upload{
+         width: 430px
+     }
+     
+     .form{
+         width: 430px;
      }
  }
