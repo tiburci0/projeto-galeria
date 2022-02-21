@@ -10,9 +10,3 @@ Além de acrescentar um projeto em meu repósitorio do GitHub, ele também fez c
 
 # DEMONSTRAÇÃO
 <a href="http://galeria-github.000webhostapp.com/index.php">CLIQUE AQUI PARA VER A DEMO</a>
-<style>
-  a{
-   color: #363636;
-   text-decoration: none;
-  }
-</style>
