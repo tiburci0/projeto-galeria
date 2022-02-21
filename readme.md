@@ -9,4 +9,4 @@
 - PHP
 
 # DEMONSTRAÇÃO
-<a href="https://http://galeria-github.000webhostapp.com/">Clique aqui para visualizar a DEMO</a>
+<a href="https:/galeria-github.000webhostapp.com/">Clique aqui para visualizar a DEMO</a>
